@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Ghiceste numarul</title>
+  </head>
+  <body>
+    <div class="info-left">Cel mai bun scor: <span id="bestScore"></span></div>
+    <div class="info-right">
+      <div>Incercari disponibile: <span id="tries"></span></div>
+      <div>Istoric numere: [<span id="history"></span>]</div>
+    </div>
+
+    <img src="mic_black_24dp.svg" alt="microphone" class="microphone-icon" />
+
+    <h1 class="title">Ghiceste numarul intre 1 si 100</h1>
+    <p class="subtitle">Ai spus numarul</p>
+
+    <div id="number" class="number">-</div>
+    <div id="message" class="message"></div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
